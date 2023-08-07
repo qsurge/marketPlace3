@@ -387,7 +387,7 @@ const _routes = [
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/index-bae0011e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-6f9ed109.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "post-slug",
@@ -990,7 +990,7 @@ const LazyAwesomeFormTextInput = defineAsyncComponent(() => import('./_nuxt/Text
 const LazyAwesomeLink = defineAsyncComponent(() => import('./_nuxt/index-4fdbba8f.mjs').then((r) => r.default));
 const LazyAwesomeTab = defineAsyncComponent(() => import('./_nuxt/Tab-61b0b76e.mjs').then((r) => r.default));
 const LazyAwesomeTabs = defineAsyncComponent(() => import('./_nuxt/Tabs-79c110dc.mjs').then((r) => r.default));
-const LazyAwesomeWelcome = defineAsyncComponent(() => import('./_nuxt/Welcome-ebc57176.mjs').then((r) => r.default));
+const LazyAwesomeWelcome = defineAsyncComponent(() => import('./_nuxt/Welcome-4ba12297.mjs').then((r) => r.default));
 const LazyContentDoc = defineAsyncComponent(() => import('./_nuxt/ContentDoc-5ea6257b.mjs').then((r) => r.default));
 const LazyContentList = defineAsyncComponent(() => import('./_nuxt/ContentList-bc313e0c.mjs').then((r) => r.default));
 const LazyContentNavigation = defineAsyncComponent(() => import('./_nuxt/ContentNavigation-ddc11f8b.mjs').then((r) => r.default));
