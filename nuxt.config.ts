@@ -20,7 +20,9 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxt/content",
   ],
-  plugins: [{ src: "~/plugins/vue-gtag" }],
+  plugins: [
+    '~/plugins/google-analytics.js',
+  ],
   css: [
     resolve("./assets/scss/_variables.scss"),
     resolve("./assets/scss/app.scss"),
