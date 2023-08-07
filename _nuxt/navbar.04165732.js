@@ -1,0 +1,1 @@
+import{f as n}from"./entry.67f1cb6f.js";function o(e){return console.log("beforegtag"),alert("Hello"),this.$gtag.event("button_click",{event_category:"Engagement",event_label:e}),typeof e=="function"?e(n()):e||""}function a(e){return typeof e=="function"?e(n()):e}export{a,o as p};
