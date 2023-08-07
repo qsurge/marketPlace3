@@ -12,7 +12,6 @@ import { composableNames, getActiveHead, createServerHead as createServerHead$1 
 import { defineHeadPlugin } from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/@unhead/shared/dist/index.mjs';
 import { hash, isEqual } from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/ohash/dist/index.mjs';
 import { parse } from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/cookie-es/dist/index.mjs';
-import VueGtag from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/vue-gtag/dist/vue-gtag.js';
 import { ssrRenderComponent, ssrRenderSuspense, ssrRenderVNode } from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/vue/server-renderer/index.mjs';
 import { defu } from 'file:///home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/defu/dist/defu.mjs';
 import { a as useRuntimeConfig$1 } from '../nitro/nitro-prerenderer.mjs';
@@ -380,7 +379,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/document-driven-8e647faf.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/document-driven-0e96be70.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "index",
@@ -388,7 +387,7 @@ const _routes = [
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/index-f603c327.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-bae0011e.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "post-slug",
@@ -396,7 +395,7 @@ const _routes = [
     meta: __nuxt_page_meta$1 || {},
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/_slug_-45af43df.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_slug_-174f9665.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "post",
@@ -404,7 +403,7 @@ const _routes = [
     meta: __nuxt_page_meta || {},
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/index-b298da78.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-6b95a999.mjs').then((m) => m.default || m)
   }
 ];
 const appPageTransition = { "name": "page", "mode": "out-in" };
@@ -960,12 +959,12 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
   }
 });
 const LazyLayoutPageContent = defineAsyncComponent(() => import('./_nuxt/Content-21a6cbaa.mjs').then((r) => r.default));
-const LazyLayoutPageFooter = defineAsyncComponent(() => import('./_nuxt/Footer-a3a5096e.mjs').then((r) => r.default));
+const LazyLayoutPageFooter = defineAsyncComponent(() => import('./_nuxt/Footer-d02621f5.mjs').then((r) => r.default));
 const LazyLayoutPageHeader = defineAsyncComponent(() => import('./_nuxt/Header-8d80f04a.mjs').then((r) => r.default));
-const LazyLayoutPageNavbar = defineAsyncComponent(() => import('./_nuxt/Navbar-20deaaeb.mjs').then((r) => r.default));
-const LazyLayoutPageNavbarDropdownThemeSwitcher = defineAsyncComponent(() => import('./_nuxt/ThemeSwitcher-68b801b9.mjs').then((r) => r.default));
-const LazyLayoutPageNavbarMenuItem = defineAsyncComponent(() => import('./_nuxt/Item-3e5d7422.mjs').then((r) => r.default));
-const LazyLayoutPageNavbarMenuWrapper = defineAsyncComponent(() => import('./_nuxt/Wrapper-c644a052.mjs').then((r) => r.default));
+const LazyLayoutPageNavbar = defineAsyncComponent(() => import('./_nuxt/Navbar-cec06bf4.mjs').then((r) => r.default));
+const LazyLayoutPageNavbarDropdownThemeSwitcher = defineAsyncComponent(() => import('./_nuxt/ThemeSwitcher-4817028e.mjs').then((r) => r.default));
+const LazyLayoutPageNavbarMenuItem = defineAsyncComponent(() => import('./_nuxt/Item-f635c148.mjs').then((r) => r.default));
+const LazyLayoutPageNavbarMenuWrapper = defineAsyncComponent(() => import('./_nuxt/Wrapper-ab7105c8.mjs').then((r) => r.default));
 const LazyLayoutPageSectionTitle = defineAsyncComponent(() => import('./_nuxt/Title-1d3fbfd8.mjs').then((r) => r.default));
 const LazyLayoutPageSection = defineAsyncComponent(() => import('./_nuxt/index-09469de5.mjs').then((r) => r.default));
 const LazyLayoutPageTitle = defineAsyncComponent(() => import('./_nuxt/Title-ab2065eb.mjs').then((r) => r.default));
@@ -977,44 +976,44 @@ const LazyAwesomeActionSheetHeaderTitle = defineAsyncComponent(() => import('./_
 const LazyAwesomeActionSheetItem = defineAsyncComponent(() => import('./_nuxt/Item-5425658b.mjs').then((r) => r.default));
 const LazyAwesomeActionSheetItemButton = defineAsyncComponent(() => import('./_nuxt/ItemButton-d54c665d.mjs').then((r) => r.default));
 const LazyAwesomeActionSheet = defineAsyncComponent(() => import('./_nuxt/index-5292284a.mjs').then((r) => r.default));
-const LazyAwesomeAlertBanner = defineAsyncComponent(() => import('./_nuxt/AlertBanner-1a115c45.mjs').then((r) => r.default));
-const LazyAwesomeButton = defineAsyncComponent(() => import('./_nuxt/index-501dfedf.mjs').then((r) => r.default));
+const LazyAwesomeAlertBanner = defineAsyncComponent(() => import('./_nuxt/AlertBanner-17daddf6.mjs').then((r) => r.default));
+const LazyAwesomeButton = defineAsyncComponent(() => import('./_nuxt/index-164c30f3.mjs').then((r) => r.default));
 const LazyAwesomeCardContent = defineAsyncComponent(() => import('./_nuxt/Content-eeabc605.mjs').then((r) => r.default));
 const LazyAwesomeCardFooter = defineAsyncComponent(() => import('./_nuxt/Footer-02102588.mjs').then((r) => r.default));
 const LazyAwesomeCardTitle = defineAsyncComponent(() => import('./_nuxt/Title-510003d9.mjs').then((r) => r.default));
 const LazyAwesomeCard = defineAsyncComponent(() => import('./_nuxt/index-c1b19ba9.mjs').then((r) => r.default));
-const LazyAwesomeContentDoc = defineAsyncComponent(() => import('./_nuxt/Doc-77e6c7f7.mjs').then((r) => r.default));
-const LazyAwesomeContentRenderer = defineAsyncComponent(() => import('./_nuxt/Renderer-b77fcf44.mjs').then((r) => r.default));
-const LazyAwesomeError = defineAsyncComponent(() => import('./_nuxt/Error-9439180a.mjs').then((r) => r.default));
+const LazyAwesomeContentDoc = defineAsyncComponent(() => import('./_nuxt/Doc-141a02a9.mjs').then((r) => r.default));
+const LazyAwesomeContentRenderer = defineAsyncComponent(() => import('./_nuxt/Renderer-7dd14c4e.mjs').then((r) => r.default));
+const LazyAwesomeError = defineAsyncComponent(() => import('./_nuxt/Error-1a6be6a9.mjs').then((r) => r.default));
 const LazyAwesomeFormSwitch = defineAsyncComponent(() => import('./_nuxt/Switch-201f72a9.mjs').then((r) => r.default));
 const LazyAwesomeFormTextInput = defineAsyncComponent(() => import('./_nuxt/TextInput-bb0a2dab.mjs').then((r) => r.default));
-const LazyAwesomeLink = defineAsyncComponent(() => import('./_nuxt/index-3da0c46b.mjs').then((r) => r.default));
+const LazyAwesomeLink = defineAsyncComponent(() => import('./_nuxt/index-4fdbba8f.mjs').then((r) => r.default));
 const LazyAwesomeTab = defineAsyncComponent(() => import('./_nuxt/Tab-61b0b76e.mjs').then((r) => r.default));
 const LazyAwesomeTabs = defineAsyncComponent(() => import('./_nuxt/Tabs-79c110dc.mjs').then((r) => r.default));
-const LazyAwesomeWelcome = defineAsyncComponent(() => import('./_nuxt/Welcome-12914545.mjs').then((r) => r.default));
-const LazyContentDoc = defineAsyncComponent(() => import('./_nuxt/ContentDoc-15486230.mjs').then((r) => r.default));
-const LazyContentList = defineAsyncComponent(() => import('./_nuxt/ContentList-29a84f93.mjs').then((r) => r.default));
-const LazyContentNavigation = defineAsyncComponent(() => import('./_nuxt/ContentNavigation-be7b8e18.mjs').then((r) => r.default));
-const LazyContentQuery = defineAsyncComponent(() => import('./_nuxt/ContentQuery-f6883657.mjs').then((r) => r.default));
-const LazyContentRenderer = defineAsyncComponent(() => import('./_nuxt/ContentRenderer-20c0d780.mjs').then((r) => r.default));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./_nuxt/ContentRendererMarkdown-4b898abb.mjs').then((r) => r.default));
-const LazyContentSlot = defineAsyncComponent(() => import('./_nuxt/ContentSlot-63e2270c.mjs').then((r) => r.default));
+const LazyAwesomeWelcome = defineAsyncComponent(() => import('./_nuxt/Welcome-ebc57176.mjs').then((r) => r.default));
+const LazyContentDoc = defineAsyncComponent(() => import('./_nuxt/ContentDoc-5ea6257b.mjs').then((r) => r.default));
+const LazyContentList = defineAsyncComponent(() => import('./_nuxt/ContentList-bc313e0c.mjs').then((r) => r.default));
+const LazyContentNavigation = defineAsyncComponent(() => import('./_nuxt/ContentNavigation-ddc11f8b.mjs').then((r) => r.default));
+const LazyContentQuery = defineAsyncComponent(() => import('./_nuxt/ContentQuery-683a0b57.mjs').then((r) => r.default));
+const LazyContentRenderer = defineAsyncComponent(() => import('./_nuxt/ContentRenderer-4fe16514.mjs').then((r) => r.default));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./_nuxt/ContentRendererMarkdown-426755d1.mjs').then((r) => r.default));
+const LazyContentSlot = defineAsyncComponent(() => import('./_nuxt/ContentSlot-48ee4d83.mjs').then((r) => r.default));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./_nuxt/DocumentDrivenEmpty-e7fcdb87.mjs').then((r) => r.default));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./_nuxt/DocumentDrivenNotFound-84f1d547.mjs').then((r) => r.default));
-const LazyMarkdown = defineAsyncComponent(() => import('./_nuxt/Markdown-ed62fff4.mjs').then((r) => r.default));
-const LazyProseA = defineAsyncComponent(() => import('./_nuxt/ProseA-1540aa0d.mjs').then((r) => r.default));
+const LazyMarkdown = defineAsyncComponent(() => import('./_nuxt/Markdown-6bc40bd5.mjs').then((r) => r.default));
+const LazyProseA = defineAsyncComponent(() => import('./_nuxt/ProseA-b28fe6cb.mjs').then((r) => r.default));
 const LazyProseBlockquote = defineAsyncComponent(() => import('./_nuxt/ProseBlockquote-2b87fc17.mjs').then((r) => r.default));
 const LazyProseCode = defineAsyncComponent(() => import('./_nuxt/ProseCode-e6feb380.mjs').then((r) => r.default));
 const LazyProseCodeInline = defineAsyncComponent(() => import('./_nuxt/ProseCodeInline-1ac42f9e.mjs').then((r) => r.default));
 const LazyProseEm = defineAsyncComponent(() => import('./_nuxt/ProseEm-d6c08706.mjs').then((r) => r.default));
-const LazyProseH1 = defineAsyncComponent(() => import('./_nuxt/ProseH1-81d39704.mjs').then((r) => r.default));
-const LazyProseH2 = defineAsyncComponent(() => import('./_nuxt/ProseH2-c887c2f6.mjs').then((r) => r.default));
-const LazyProseH3 = defineAsyncComponent(() => import('./_nuxt/ProseH3-ded3307d.mjs').then((r) => r.default));
-const LazyProseH4 = defineAsyncComponent(() => import('./_nuxt/ProseH4-2759eda2.mjs').then((r) => r.default));
-const LazyProseH5 = defineAsyncComponent(() => import('./_nuxt/ProseH5-cec069db.mjs').then((r) => r.default));
-const LazyProseH6 = defineAsyncComponent(() => import('./_nuxt/ProseH6-af50f55e.mjs').then((r) => r.default));
+const LazyProseH1 = defineAsyncComponent(() => import('./_nuxt/ProseH1-87c689ac.mjs').then((r) => r.default));
+const LazyProseH2 = defineAsyncComponent(() => import('./_nuxt/ProseH2-08a621d0.mjs').then((r) => r.default));
+const LazyProseH3 = defineAsyncComponent(() => import('./_nuxt/ProseH3-5c001baf.mjs').then((r) => r.default));
+const LazyProseH4 = defineAsyncComponent(() => import('./_nuxt/ProseH4-a0abcc59.mjs').then((r) => r.default));
+const LazyProseH5 = defineAsyncComponent(() => import('./_nuxt/ProseH5-1622abb0.mjs').then((r) => r.default));
+const LazyProseH6 = defineAsyncComponent(() => import('./_nuxt/ProseH6-da74d6f8.mjs').then((r) => r.default));
 const LazyProseHr = defineAsyncComponent(() => import('./_nuxt/ProseHr-de2a7268.mjs').then((r) => r.default));
-const LazyProseImg = defineAsyncComponent(() => import('./_nuxt/ProseImg-46caa669.mjs').then((r) => r.default));
+const LazyProseImg = defineAsyncComponent(() => import('./_nuxt/ProseImg-b5a7acd0.mjs').then((r) => r.default));
 const LazyProseLi = defineAsyncComponent(() => import('./_nuxt/ProseLi-1f1c2298.mjs').then((r) => r.default));
 const LazyProseOl = defineAsyncComponent(() => import('./_nuxt/ProseOl-63be517d.mjs').then((r) => r.default));
 const LazyProseP = defineAsyncComponent(() => import('./_nuxt/ProseP-19205362.mjs').then((r) => r.default));
@@ -1026,8 +1025,8 @@ const LazyProseTh = defineAsyncComponent(() => import('./_nuxt/ProseTh-7a74e0fc.
 const LazyProseThead = defineAsyncComponent(() => import('./_nuxt/ProseThead-5d92d9e1.mjs').then((r) => r.default));
 const LazyProseTr = defineAsyncComponent(() => import('./_nuxt/ProseTr-4e45ccab.mjs').then((r) => r.default));
 const LazyProseUl = defineAsyncComponent(() => import('./_nuxt/ProseUl-878ebb65.mjs').then((r) => r.default));
-const LazyIcon = defineAsyncComponent(() => import('./_nuxt/Icon-751c8332.mjs').then((r) => r.default));
-const LazyIconCSS = defineAsyncComponent(() => import('./_nuxt/IconCSS-88ece8a9.mjs').then((r) => r.default));
+const LazyIcon = defineAsyncComponent(() => import('./_nuxt/Icon-c19bf7f4.mjs').then((r) => r.default));
+const LazyIconCSS = defineAsyncComponent(() => import('./_nuxt/IconCSS-a635fde2.mjs').then((r) => r.default));
 const lazyGlobalComponents = [
   ["LayoutPageContent", LazyLayoutPageContent],
   ["LayoutPageFooter", LazyLayoutPageFooter],
@@ -1488,7 +1487,7 @@ const createQueryFetch = () => async (query) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const db = await import('./_nuxt/client-db-e72083f4.mjs').then((m) => m.useContentDatabase());
+    const db = await import('./_nuxt/client-db-f723eba0.mjs').then((m) => m.useContentDatabase());
     return db.fetch(query);
   }
   const data = await $fetch(apiPath, {
@@ -1548,7 +1547,7 @@ const fetchContentNavigation = async (queryBuilder) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const generateNavigation = await import('./_nuxt/client-db-e72083f4.mjs').then((m) => m.generateNavigation);
+    const generateNavigation = await import('./_nuxt/client-db-f723eba0.mjs').then((m) => m.generateNavigation);
     return generateNavigation(params);
   }
   const data = await $fetch(apiPath, {
@@ -1565,7 +1564,7 @@ const fetchContentNavigation = async (queryBuilder) => {
   return data;
 };
 const layouts = {
-  page: () => import('./_nuxt/page-b8a1f6af.mjs').then((m) => m.default || m)
+  page: () => import('./_nuxt/page-7638e3b1.mjs').then((m) => m.default || m)
 };
 const documentDriven_9cX98v59ZY = /* @__PURE__ */ defineNuxtPlugin((nuxt) => {
   var _a, _b, _c, _d;
@@ -1774,10 +1773,10 @@ const plugin_server_XNCxeHyTuP = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   });
   nuxtApp.provide("colorMode", colorMode);
 });
-const vue_gtag_S6KjvYXIWb = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.use(VueGtag, {
-    config: { id: "G-2LMS6D5WM8" }
-  });
+const google_analytics_pJGHEUVnWz = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
+  {
+    console.log("ssr");
+  }
 });
 const awesome_dxYinEZglg = /* @__PURE__ */ defineNuxtPlugin((nuxt) => {
 });
@@ -1789,7 +1788,7 @@ const plugins = [
   unhead_KgADcZ0jPj,
   documentDriven_9cX98v59ZY,
   plugin_server_XNCxeHyTuP,
-  vue_gtag_S6KjvYXIWb,
+  google_analytics_pJGHEUVnWz,
   awesome_dxYinEZglg
 ];
 const removeUndefinedProps = (props) => Object.fromEntries(Object.entries(props).filter(([, value]) => value !== void 0));
@@ -2267,8 +2266,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-856df36b.mjs').then((r) => r.default || r));
-    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-472373ec.mjs').then((r) => r.default || r));
+    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-9955844c.mjs').then((r) => r.default || r));
+    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-072348cb.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -2286,7 +2285,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-de201d19.mjs').then((r) => r.default || r));
+    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-8ce6ca80.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

@@ -15,9 +15,11 @@ export default defineNuxtPlugin((nuxtApp) => {
       }
       gtag("js", new Date());
       gtag("config", "G-2LMS6D5WM8");
-      nuxtApp.$gtag = gtag; // Make the gtag function accessible in the Vue instance
-    };
+      module.exports = ({ app }, inject) => {
+        inject('gtag', gtag)
+      }    };
   } else {
     console.log("ssr");
   }
+  
 });
