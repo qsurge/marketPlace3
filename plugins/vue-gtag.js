@@ -3,6 +3,6 @@ import VueGtag from "vue-gtag";
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueGtag, {
-    config: { id: "UA-174146361-1" },
+    config: { id: "G-2LMS6D5WM8" },
   });
 });
