@@ -408,7 +408,7 @@ const _routes = [
 ];
 const appPageTransition = { "name": "page", "mode": "out-in" };
 const appLayoutTransition = { "name": "layout", "mode": "out-in" };
-const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [], "noscript": [] };
+const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [{ "hid": "gtm", "children": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','G-GP84QRXRXE');", "type": "text/javascript" }], "noscript": [] };
 const appKeepalive = false;
 const routerOptions0 = {
   scrollBehavior(to, from, savedPosition) {
