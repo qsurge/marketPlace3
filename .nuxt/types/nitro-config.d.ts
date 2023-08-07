@@ -3,7 +3,7 @@
 // App Config
 import type { Defu } from 'defu'
 
-import type { default as appConfig0 } from "/home/agile/Downloads/GA-Nuxt/marketPlace2/app.config";
+import type { default as appConfig0 } from "/home/agile/Downloads/GA-Nuxt/marketPlace3/app.config";
 
 type UserAppConfig = Defu<{}, [typeof appConfig0]>
 

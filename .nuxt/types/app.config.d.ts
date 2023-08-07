@@ -1,7 +1,7 @@
 
 import type { CustomAppConfig } from 'nuxt/schema'
 import type { Defu } from 'defu'
-import cfg0 from "/home/agile/Downloads/GA-Nuxt/marketPlace2/app.config"
+import cfg0 from "/home/agile/Downloads/GA-Nuxt/marketPlace3/app.config"
 
 declare const inlineConfig = {}
 type ResolvedAppConfig = Defu<typeof inlineConfig, [typeof cfg0]>

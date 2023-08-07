@@ -12,60 +12,60 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/.nuxt/types/nitro-imports"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3"
       ],
       "~/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/*"
       ],
       "@": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3"
       ],
       "@/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/*"
       ],
       "~~": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3"
       ],
       "~~/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/*"
       ],
       "@@": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3"
       ],
       "@@/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/*"
       ],
       "assets": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/assets"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/assets"
       ],
       "assets/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/assets/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/assets/*"
       ],
       "public": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/public"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/public"
       ],
       "public/*": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/public/*"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/public/*"
       ],
       "#color-mode-options": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/.nuxt/color-mode-options"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/.nuxt/color-mode-options"
       ],
       "pinia": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/node_modules/pinia/dist/pinia"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/pinia/dist/pinia"
       ],
       "#content/server": [
-        "/home/agile/Downloads/GA-Nuxt/marketPlace2/node_modules/@nuxt/content/dist/runtime/server/index"
+        "/home/agile/Downloads/GA-Nuxt/marketPlace3/node_modules/@nuxt/content/dist/runtime/server/index"
       ]
     }
   },
   "include": [
-    "/home/agile/Downloads/GA-Nuxt/marketPlace2/.nuxt/types/nitro-nuxt.d.ts",
+    "/home/agile/Downloads/GA-Nuxt/marketPlace3/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"
