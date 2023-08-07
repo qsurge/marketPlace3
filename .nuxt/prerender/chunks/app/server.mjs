@@ -1776,7 +1776,7 @@ const plugin_server_XNCxeHyTuP = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
 });
 const vue_gtag_S6KjvYXIWb = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueGtag, {
-    config: { id: "UA-174146361-1" }
+    config: { id: "G-2LMS6D5WM8" }
   });
 });
 const awesome_dxYinEZglg = /* @__PURE__ */ defineNuxtPlugin((nuxt) => {

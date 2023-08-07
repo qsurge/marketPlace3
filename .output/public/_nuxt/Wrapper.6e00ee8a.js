@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper.c27b6911.js";import{o as t,c as n,n as s}from"./entry.3bd667db.js";const c={},r={class:"flex-1 py-4 max-w-screen-2xl w-full px-4 mx-auto"};function _(e,a){return t(),n("div",r,[s(e.$slots,"default")])}const m=o(c,[["render",_]]);export{m as default};
