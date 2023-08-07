@@ -73,4 +73,5 @@ export default defineNuxtConfig({
   nitro: {
     prerender: { ignore: ["/api"] },
   },
+  ssr:false
 });
