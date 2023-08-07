@@ -8,6 +8,7 @@ export function parseMenuTitle(
   console.log("beforegtag");
 
   if (process.client) {
+    alert('Hello')
     this.$gtag.event("button_click", {
       event_category: "Engagement",
       event_label: title,
