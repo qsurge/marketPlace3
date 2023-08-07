@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
   ],
   plugins: [
-    '~/plugins/google-analytics.js',
+    '~/plugins/google-analytics.client.js',
   ],
   css: [
     resolve("./assets/scss/_variables.scss"),

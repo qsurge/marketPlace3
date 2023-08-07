@@ -17,7 +17,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server").default> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.client").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
-  InjectionType<typeof import("../../plugins/google-analytics").default> &
+  InjectionType<typeof import("../../plugins/google-analytics.client").default> &
   InjectionType<typeof import("../../plugins/awesome").default>
 
 declare module '#app' {
