@@ -37,7 +37,7 @@
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lint:fix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "release": "release-it",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=app --branch=gh-pages --cleanup --verbose"
   },
   "dependencies": {
     "@nuxt/content": "^2.7.0",
